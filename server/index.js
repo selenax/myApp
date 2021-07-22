@@ -1,5 +1,6 @@
 const express = require('express');
 
+// dynamic port binding for heroku
 const PORT = process.env.PORT || 5000;
 
 const app = express();
